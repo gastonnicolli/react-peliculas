@@ -2,10 +2,11 @@ import React from 'react';
 import {  } from 'react-router';
 import { BrowserRouter, Route, Switch  } from 'react-router-dom';
 import './App.css';
-import IndiceGeneros from './generos/IndiceGeneros';
-import LandingPage from './LandingPage';
 import Menu from './utils/Menu';
 import rutas from './route-config';
+import configurarValidaciones from './Validaciones';
+
+configurarValidaciones();
 
 function App() {
 
